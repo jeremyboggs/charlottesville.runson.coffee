@@ -1,0 +1,71 @@
+html,body {
+    margin:0;padding:0;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font: 1.25em/1.375 'Open Sans', Verdana, sans-serif;
+    color: #333;
+}
+
+a,:link {
+    color: #38c;
+}
+:visited {
+    color: #6af;
+}
+:hover, :focus {
+    color: #369;
+}
+:active {
+    color: #333;
+}
+
+h1,ul,li,p {
+    margin:0;
+    padding:0;
+}
+
+p,ul {
+    margin-bottom: 1em;
+}
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+h1 + ul li {
+    list-style:none;
+    padding:0;
+}
+
+h1 em {
+    font-style:normal;
+}
+
+h1 em:after {
+    content: " · ";
+    color: #999;
+}
+
+#banner {
+    min-height: 30vh;
+    background: #eee;
+    padding: 4rem;
+}
+
+#main section {
+    padding: 4rem;
+    border-bottom: 10px dotted #ccc;
+}
+
+#main section:last-of-type {
+    border-bottom:none;
+}
+#contentinfo {
+    padding: 2rem;
+    background: #444;
+    color: white;
+    color: rgba(255,255,255,0.825);
+}
